@@ -60,16 +60,16 @@ h5 {
   margin-bottom:.02em;
 }
     
-a:link { 
+#content a:link { 
   text-decoration: none; 
   color: #555753; 
 }
-a:visited { 
+#content a:visited { 
   font-weight: bold; 
   text-decoration: none; 
   color: #555753; 
 }
-a:hover, a:active { 
+#content a:hover, a:active { 
   text-decoration: none; 
   color: #151713;
 }
