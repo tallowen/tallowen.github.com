@@ -62,16 +62,11 @@ h5 {
     
 a{
   text-decoration: none;
-  color: #555753; 
 }
-/*
-#content a:visited { 
-  font-weight: bold; 
-  text-decoration: none; 
-  color: #555753; 
-}*/
+#content a{
+  font-weight: bold;
+}
 #content a:hover, a:active { 
-  text-decoration: none; 
   color: #151713;
 }
 
