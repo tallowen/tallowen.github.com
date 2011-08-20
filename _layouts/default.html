@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-  <title>{{page.title}}</title>
+  <title>{% if page.section != "home" %}Owen Coutts | {{page.section}}{% else %}Owen Coutts{% endif %}</title>
 
   <link rel="stylesheet" href="/media/css/fresh.css" type="text/css" />
   <link rel="stylesheet" href="/media/css/projects.css" type="text/css" />
@@ -36,12 +36,10 @@
       </div>
 
       <div id="linkList">
-        <h2 {% if page.url == "/index.html" %}class="selected"{% endif %}><a href ="/">Welcome</a></h2>
-
-        <h2 {% if page.url == "/projects.html" %}class="selected"{% endif %}><a href="/projects.html">Projects</a></h2>
-
-        <h2 {% if page.url == "/about.html" %}class="selected"{% endif %}><a href="/about.html">About Me</a></h2>
-
+        <h2 {% if page.section == "home" %}class="selected"{% endif %}><a href ="/">Welcome</a></h2>
+        <h2 {% if page.section == "Projects" %}class="selected"{% endif %}><a href="/projects.html">Projects</a></h2>
+        <h2 {% if page.section == "About Me" %}class="selected"{% endif %}><a href="/about.html">About Me</a></h2>
+        <h2 {% if page.section == "Blog" %}class="selected"{% endif %}><a href="/blog/">Blog</a></h2>
         <h2><a href="/resume.html">Resume</a></h2>
       </div>
     </div>
@@ -52,7 +50,13 @@
     </div>
 
     <div id="footer">
-	  <h3>Owen Coutts| <a href="mailto:owen@owencoutts.com">owen@owencoutts.com</a></h3>
+	  <h3>Owen Coutts | <a id="foot-email" href="#">owen@example.com</a></h3>
+	  <script type="text/javascript">
+	      var foot_email=String.fromCharCode(111,119,101,110,64,111,119,101,110,99,111,117,116,116,115,46,99,111,109);
+	      var email_link = document.getElementById("foot-email");
+	      email_link.innerHTML=foot_email;
+	      email_link.setAttribute("href","mailto:"+foot_email);
+	  </script>
     </div>
   </div>
 </body>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Owen Coutts | Projects
+section: Projects
 ---
 ### Building an arduino robot
 
