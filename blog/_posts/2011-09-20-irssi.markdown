@@ -68,7 +68,7 @@ i'll reiterate the important steps:
     $ ssh remoteserver
     $ mkdir -p ~/.irssi/scripts/autorun/
     $ cd ~/.irssi/scripts/autorun/
-    $ wget http://owencoutts.com/blog/media/2011-09-20-irssi/fnotify.pl
+    $ wget http://goo.gl/FcHi3
     
 [fnotify][7] is a script that pipes data whenever events such as a mention or a PM occur.
 These events occur on the remote server but we want to have them display on the local computer.
@@ -80,17 +80,12 @@ The instructions for how to install growl notify can be found on the [growl webs
 Once you've installed growlnotify you can sanity check it by running the following command:
 
     $ growlnotify -t "Weather" -m "Sunny with double rainbows"
-    
-Now to tail the messages from the server you want to run the following script:
 
-<script src="https://gist.github.com/1159731.js"></script>
+Remember `open_irc.sh`? We want to add support for notifications to that.
+You can download my [open_irc.sh][9] file [here][9]. Make sure you change `ssh people` to
+whatever the name of your server is.
 
-You'll have to change `ssh people` to whatever the name of your remote host is. If this 
-works you'll want to change your open_irc.sh file to include this.
-
-You can download my [open_irc.sh][9] file [here][9].
-
-If you have any questions don't hesitate to email me!
+Any questions? Any problems? Need help? Don't hesitate to shoot me an email me at <owen@owencoutts.com>
 
 
 [1]: http://mozilla.org
