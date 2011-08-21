@@ -13,6 +13,10 @@ p, #content ul {
   text-align: justify;
 }
 
+ul {
+  padding-left: 25px;
+}
+
 #content li{
   list-style-type:dash;
   padding-bottom:10px;
@@ -49,7 +53,7 @@ pre {
   font-weight:bold; 
 }
 
-h3 { 
+#footer h3 { 
   font: normal 10pt/16pt helvetica; 
   letter-spacing: 1px; 
   margin-bottom: 0px; 
@@ -182,5 +186,14 @@ a{
   background:url("/media/img/aboard.jpg");
   background-position:center;
   background-repeat: no-repeat;
+}
+ul.posts, ul.posts li{
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+
+.postdate-title {
+  float:right;
 }
 
