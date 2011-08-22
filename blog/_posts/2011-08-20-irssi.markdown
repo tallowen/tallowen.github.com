@@ -96,4 +96,4 @@ Any questions? Any problems? Need help? Don't hesitate to shoot me an email me a
 [6]: http://justindow.com/2010/03/26/irssi-screen-and-growl-oh-my/
 [7]: /blog/media/2011-09-20-irssi/fnotify.pl
 [8]: http://growl.info/extras.php#growlnotify
-[9]: /blog/media/2011-09-20-irssi/open_irc.sh
+[9]: /blog/media/2011-08-20-irssi/open_irc.sh

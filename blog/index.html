@@ -3,7 +3,13 @@ layout: blog
 cat: blog
 section: Blog
 ---
-
-This should show a view with my most recent entries
-
-{{ site.email }}
+<ul class="posts">
+      {% for post in site.categories.blog %}
+        <li>
+             <a href="{{ post.url }}">
+                {{ post.title }}</a>
+                 <span class="postdate-title">{{ post.date | date_to_string }}</span>
+            
+        </li>
+      {% endfor %}
+</ul>
