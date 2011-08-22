@@ -13,6 +13,10 @@ p, #content ul {
   text-align: justify;
 }
 
+ul {
+  padding-left: 25px;
+}
+
 #content li{
   list-style-type:dash;
   padding-bottom:10px;
@@ -33,11 +37,23 @@ h2 {
   text-align: justify;
 }
 
+code {
+  font-family:monospace;
+  background:#F8f8ff;
+}
+
+pre {
+  background:#F8f8ff;
+  border: 1px solid #DEDEDE;
+  padding:5px;
+}
+  
+
 .selected {
   font-weight:bold; 
 }
 
-h3 { 
+#footer h3 { 
   font: normal 10pt/16pt helvetica; 
   letter-spacing: 1px; 
   margin-bottom: 0px; 
@@ -58,6 +74,28 @@ h5 {
   font-weight: bold;
   margin-top: 1.67em;
   margin-bottom:.02em;
+}
+
+strong {
+  font-weight: bold;
+  color: #151713;
+}
+#content h1{
+}
+
+#content h2, #content h3, #content h4{
+  color: #801013;
+  margin: 30px 0px 8px 0px;
+}
+
+#content h3{
+  color: #801013;
+  margin: 30px 0px 5px 0px;
+}
+
+#content h4{
+  color: #801013;
+  margin: 30px 0px 5px 0px;
 }
     
 a{
@@ -148,5 +186,14 @@ a{
   background:url("/media/img/aboard.jpg");
   background-position:center;
   background-repeat: no-repeat;
+}
+ul.posts, ul.posts li{
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+
+.postdate-title {
+  float:right;
 }
 

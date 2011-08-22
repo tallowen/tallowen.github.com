@@ -1,2 +1,8 @@
 safe: true
 pygments: true
+auto: true
+#This allows you to call {{ site.email }} and return an email that gets parsed by javascript.
+#This is useful so that crawlers don't spam me.
+email: <script type="text/javascript">var email=String.fromCharCode(111,119,101,110,64,111,119,101,110,99,111,117,116,116,115,46,99,111,109);document.write('<a href="mailto:'+email+'">'+email+'</a>')</script>
+#markdown provides its own escaping
+markdown_email: <owen@owencoutts.com>

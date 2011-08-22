@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Owen Coutts | About
+section: About Me
 ---
 
 This is the page of Owen Coutts. You may know me as the 7' tall guy, "The Canadian" if you are American, "The American" if you are Canadian, or "The German" if you are my family.
