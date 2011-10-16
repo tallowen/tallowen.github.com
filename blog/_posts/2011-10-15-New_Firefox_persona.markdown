@@ -6,9 +6,9 @@ title: New Persona!
 {{page.title}}
 ==============
 
-[Personas][1] allow you to change the background image of the user interface elements of [Firefox][2]. I was getting bored of all the personas and their wishwashy gradients so I decidedd to try making one for myself. I ended up doing a quick pencil sketch in Inkscape. I submitted the persona to [Mozilla's][3] gallery which you can see [here][4].
+[Personas][1] allow you to change the background image of the user interface elements of [Firefox][2]. I was getting bored of all the personas and their wishwashy gradients so I deciddd to try making one for myself. I ended up doing a quick pencil sketch in Inkscape. I submitted the persona to [Mozilla's][3] gallery which you can see [here][4].
 
-All a persona consists of is two images: one that is 3000x200 px and one that is 3000x100 px. One thing I failed to recognize when I started was the fact that most of the relastate of the persona will never be seen. Next time I won't bother drawing something in the generally unused parts.
+All a persona consists of is two images: one that is 3000x200 px and one that is 3000x100 px. One thing I failed to recognize when I started was the fact that most of the real-estate of the persona will never be seen. Next time I won't bother drawing something in the generally unused parts.
 
 If you are curious, here are the sources:
 - Header ([svg][8], [png][7])
