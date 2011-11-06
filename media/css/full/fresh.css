@@ -1,0 +1,199 @@
+/* CSS Document */
+
+/* basic elements */
+body { 
+  color: #555753; 
+  margin: 0px; 
+  font-family:helvetica, arial, sans-serif;
+}
+
+p, #content ul { 
+  font: 10pt/16pt helvetica; 
+  margin-top: 5px; 
+  text-align: justify;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+#content li{
+  list-style-type:dash;
+  padding-bottom:10px;
+}
+
+p2 { 
+  font: bold 10pt/16pt helvetica; 
+  margin-top: 5px; 
+}
+
+h1 { 
+  font: normal bold 20pt helvetica; 
+}
+
+h2 { 
+  font: normal 14pt helvetica; 
+  margin-top: 0px; 
+  text-align: justify;
+}
+
+code {
+  font-family:monospace;
+  background:#F8f8ff;
+}
+
+pre {
+  background:#F8f8ff;
+  border: 1px solid #DEDEDE;
+  padding:5px;
+}
+  
+
+.selected {
+  font-weight:bold; 
+}
+
+#footer h3 { 
+  font: normal 10pt/16pt helvetica; 
+  letter-spacing: 1px; 
+  margin-bottom: 0px; 
+  text-align: center;
+  color: #151713;
+}
+    
+h4 { 
+  font: normal 14pt helvetica; 
+  margin-top: 0px; 
+  text-align: justify;
+  color: #801013;
+}
+
+h5 {
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.67em;
+  margin-bottom:.02em;
+}
+
+strong {
+  font-weight: bold;
+  color: #151713;
+}
+#content h1{
+}
+
+#content h2, #content h3, #content h4{
+  color: #801013;
+  margin: 30px 0px 8px 0px;
+}
+
+#content h3{
+  color: #801013;
+  margin: 30px 0px 5px 0px;
+}
+
+#content h4{
+  color: #801013;
+  margin: 30px 0px 5px 0px;
+}
+    
+a{
+  color: #555753;
+  text-decoration: none;
+}
+#content a{
+  font-weight: bold;
+}
+#content a:hover, a:active { 
+  color: #151713;
+}
+
+
+
+#page{
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 85px 50px 0px 40px;  
+  width: 750px;
+}
+
+/* Name and subtext */
+#slogme{
+  padding-bottom:40px;
+}
+#name{
+  letter-spacing: -2px;
+  font: normal normal normal 25pt/normal helvetica;
+  height:40px;
+}
+
+#subtext{
+  padding-top:5px;
+  margin-left:15px;
+}
+
+.bold {
+  color: #801013;
+}
+/*end subtext*/
+
+#leftside {
+  position: static;
+  float: left;
+  width:250px;
+}
+
+#rightside {
+  float: left;
+  width:500px;
+}
+    
+#slogan { 
+  padding: 20px 0px 0px 0px;
+  width: 400px;
+}
+
+#linkList {
+  padding-left:15px;
+}
+
+#header-pic {
+  background:url("/media/img/shaving.png");
+  background-repeat:no-repeat;
+  height:100px;
+  width:500px;
+}
+
+#footer { 
+  clear: both;
+  padding: 5px 0px 20px 0px;
+  width: 750px;
+}
+
+/*About CSS */
+#mountainfam{
+  height:220px;
+  padding-bottom:25px;
+  background:url("/media/img/mountainfam.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Projects CSS */
+
+#arduino{
+  height:217px;
+  background:url("/media/img/aboard.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+}
+ul.posts, ul.posts li{
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+
+.postdate-title {
+  float:right;
+}
+
