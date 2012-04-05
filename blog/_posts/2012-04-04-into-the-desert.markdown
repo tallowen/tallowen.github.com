@@ -10,10 +10,10 @@ title: Into The Desert
 
 In March I went into the desert. I traveled with 3 others to south west of
 Utah. We spent a few days backpacking around the [needles district][1] of
-canyonlands national park. We continued to spend an afternon in
+canyonlands national park. We continued to spend an afternoon in
 [arches national park][2] followed by a day in the [island in the sky district][3] of canyonlands.
 
-The sun bear the dolphin the goat and the moose fearlessly wandered.
+The sun bear the dolphin the goat and the moose set out on adventure. Here are some of the places they fearlessly wandered.
 
 *Through the snow:*
 ![Snow!](/blog/media/2012-04-04-canyonlands/snow.jpg)
