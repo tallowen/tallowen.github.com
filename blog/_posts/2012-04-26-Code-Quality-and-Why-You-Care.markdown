@@ -20,7 +20,7 @@ There is no excuse not to use these tools. Tools like [Sublime Linter][1] and [c
 
 ![latte][3]
 
-Sometimes these principles can be taken to far in code reviews. Fixing Bad variable names or missing apostrophes could be an example. I think a good barometer in these situations is to weigh the hassle of fixing something minor vs. the pain it will cause in the future if left in. Having things be non-standard or non-strait forward causes others non-zero hassle in the future, but this might not outweigh the hassle of makeing a fix in the short term.
+Sometimes these principles can be taken too far in code reviews. Fixing Bad variable names or missing apostrophes could be an example. I think a good barometer in these situations is to weigh the hassle of fixing something minor vs. the pain it will cause in the future if left in. Having things be non-standard or non-strait forward causes others non-zero hassle in the future, but this might not outweigh the hassle of makeing a fix in the short term.
 
 
 [1]: https://github.com/Kronuz/SublimeLinter
