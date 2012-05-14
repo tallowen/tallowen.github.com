@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #848484;
+  font: normal normal normal 14px/20px Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 41px;
+  line-height: 50px;
+  font-weight: normal;
+  font-style: normal;
+  color: #3c3c3c;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  font-style: normal;
+  color: #848484;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  font-style: normal;
+  color: #3c3c3c;
+}
+
+div {
+  border-width:1px;
+  border-color:#848484;
+}
+
+em {
+    font-weight:bold;
+    font-style:normal;
+}
+
+a:link, a:visited {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+#page {
+  width:950px;
+  margin: 0 auto;
+  margin-top:20px;
+  border-color:red;
+}
+
+#name{
+  color: #666666;
+  font: normal normal normal 45px/normal normal;
+  letter-spacing: -2px;
+  text-align: right;
+}
+
+#name p{
+  margin-bottom:0;
+}
+
+.bold {
+  color:#66CCCC;
+}
+
+
+
+/*contact info*/
+#contact-div {
+  overflow:auto;
+}
+
+#contact {
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  line-height: 20px;
+  float: right;
+}
+
+#contact li {
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+#contact li span {
+  float: left;
+}
+
+#contact li strong {
+  float: right;
+  text-align: right;
+  color: #3c3c3c;
+  font-weight: normal;
+}
+/* end contact info */
+
+/* Resume Contents*/
+#content {
+}
+
+.section {
+  width: 950px;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+#content ul{
+  padding:0;
+}
+
+div.section{
+  border-top-style:solid;
+}
+
+.section h2 {
+  width: 160px;
+  padding-right: 30px;
+  float: left;
+  padding-top: 0;
+  line-height: 22px;
+}
+
+.section h3 {
+  line-height: 22px;
+  font-style: italic;
+  margin: 6px 0 24px 0;
+}
+
+.section h4 {
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 5px;
+  margin-top: -22px;
+}
+
+.section .date {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+.section .item {
+  width: 700px;
+  padding-left: 50px;
+  float: right;
+  padding-top: 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section div.item {
+  border-left-style:ridge;
+}
+
+.section .item ul {
+  list-style-type: none;
+}
+
+.section .item li {
+    padding-bottom:10px;
+}
+
+.section .description {
+  text-align: justify;
+  width: 510px;
+}
+/* end content  section */
+
+
+/* footer of page */
+#footer {
+  padding-top:15px;
+  text-align:center;
+}
+/* end footer */

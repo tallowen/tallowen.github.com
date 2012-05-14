@@ -1,241 +1,79 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+---
+skills:
+  -
+    _Python_, _javascript_, HTML, CSS, jQuery, _node.js_, _Django_, Gunicorn/nginx, MySQL, MongoDB, ElasticSearch, _git_, Python Nose, Selenium Testing
+  -
+    Strong _Leadership_ abilities gained through experience in project management, and experience leading development on cross-functional product teams.
+  -
+    Exceptional _Teamwork_ through working on distributed teams with tough process requirements. See my [blog post](http://owencoutts.com/blog/2012/04/26/Code-Quality-and-Why-You-Care.html) on code quality and its impact on teams.
+
+
+experiences:
+  -
+    employer: Mozilla
+    website: http://mozilla.com
+    title: Web Developer
+    date: January-April 2012
+    description:
+      I worked on [Mozillians](http://www.mozillians.org/), a community platform for contributors. Mozillians is a site with technologies including django, backbone.js and ElasticSearch. I was responsible for tasks such as implementing a design refresh, implementing an API and working on feature requests from product owners. Check out what I worked on at my [github](https://github.com/mozilla/mozillians/commits/master?author=tallowen).
+  -
+    employer: Mozilla
+    website: http://mozilla.com
+    title: Quality Engineer
+    date: May-August 2011
+    description:
+      I created a system to generate various types of large scale load for the [Mozilla Sync Servers](https://services.mozilla.com/). I wrote code that tore apart various systems and found scaling vulnerabilities. I used distributed [funkload](http://funkload.nuxeo.org/) applications to generate load and [MongoDB](http://www.mongodb.org/) to provide a data validation backend.
+  -
+    employer: Twitsprout
+    website: http://twitsprout.com
+    title: Web Developer (Contractor)
+    date: March-April 2011
+    description:
+      Twitsprout is a social networking startup. I engineered their minimum viable product. I designed a user interface that allowed users to browse their twitter and Facebook data in more useful ways.
+  -
+    employer: Top Hat Monocle
+    website: http://tophatmonocle.com
+    title: Evil Genius
+    date: September-December 2010
+    description:
+      Top Hat is a 10-person startup that makes educational software. I implemented automated frontend testing in [selenium](http://seleniumhq.org/) to help with release testing. I also implemented various backend features written in Django. Because of the nature of the startup, I was able to gain exposure agile development and especially fast release cycles.
+  -
+    employer: Research in Motion
+    website: http://rim.com
+    title: Systems Integration Specialist
+    date: January-May 2010
+    description:
+      I designed, developed and executed testing procedures for a new database system that allowed RIM to streamline BlackBerry production. I participated in multiple global database go-lives that critically impacted the production process. I led a team of individuals to complete testing and validate the new database system during go-live. I relied on communication skills as well as leadership skills to get the job done.
+
+sample_code:
+  -
+    title: Mozillians
+    url: https://github.com/mozilla/mozillians/commits?author=tallowen
+  -
+    title: Social Share Plugin
+    url: https://github.com/mozilla/SocialShare/commits?author=tallowen
+  -
+    title: Git Legit
+    url: https://github.com/kennethreitz/legit/commits?author=tallowen
+  -
+    title: Django BrowserID
+    url: https://github.com/mozilla/django-browserid/commits?author=tallowen
+  -
+    title: Django Sha2
+    url: https://github.com/fwenzel/django-sha2/commits?author=tallowen
+
+---
+<!DOCTYPE html>
+<html>
   <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  <!--This is generated code. Checkout the repository at github.com/tallowen/tallowen.github.com-->
   <title>Owen Coutts - Resume</title>
-      <style type="text/css">
-# Yes ok fine. This is really bad. The reason that I have CSS right here is so that I can move it around as one file.
-# This is nessasary for uploading it to the University of Waterloo recruitment website.
-*{
-  margin: 0;
-  padding: 0;
-}
-
-
-
-body {
-  color: #848484;
-  font: normal normal normal 14px/20px Georgia, 'Times New Roman', Times, serif;
-}
-
-
-
-h1 {
-  font-size: 41px;
-  line-height: 50px;
-  font-weight: normal;
-  font-style: normal;
-  color: #3c3c3c;
-}
-
-
-
-h2 {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: normal;
-  font-style: normal;
-  color: #848484;
-}
-
-
-
-h3 {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: normal;
-  font-style: normal;
-  color: #3c3c3c;
-}
-
-
-
-p {
-}
-
-div {
-  border-width:1px;
-  border-color:#848484;
-}
-
-
-em {
-    font-weight:bold;
-    font-style:normal;
-}
-
-
-a:link, a:visited {
-  color: #3c3c3c;
-  text-decoration: none;
-}
-
-
-
-a:link:hover, a:visited:hover {
-  text-decoration: underline;
-  color: #000;
-}
-
-#page {
-  width:950px;
-  margin:0px auto;
-  margin-top:20px;
-  border-color:red;
-}
-
-#header {
-}
-
-
-#name{
-  color: #666666;
-  font: normal normal normal 45px/normal normal;
-  letter-spacing: -2px;
-  text-align: right;
-}
-
-
-
-#name p{
-  margin-bottom:0px;
-}
-
-.bold {
-  color:#66CCCC;
-}
-
-
-
-/*contact info*/
-#contact-div {
-  overflow:auto;
-}
-
-#contact {
-  width: 250px;
-  padding-top: 15px;
-  padding-bottom:20px;
-  list-style-type: none;
-  line-height: 20px;
-  float: right;
-}
-
-
-
-#contact li {
-  overflow: hidden;
-  margin-bottom: 5px;
-}
-
-#contact li span {
-  float: left;
-}
-
-#contact li strong {
-  float: right;
-  text-align: right;
-  color: #3c3c3c;
-  font-weight: normal;
-}
-
-/* end contact info */
-
-/* Resume Contents*/
-#content {
-}
-
-.section {
-  width: 950px;
-  margin: 0 auto;
-  padding: 20px 0;
-  overflow: hidden;
-}
-
-#content ul{
-  padding:0px;
-}
-
-div.section{
-  border-top-style:solid;
-}
-
-.section h2 {
-  width: 160px;
-  padding-right: 30px;
-  float: left;
-  padding-top: 0;
-  line-height: 22px;
-}
-
-.section h3 {
-  line-height: 22px;
-  font-style: italic;
-  margin: 6px 0px 24px 0px;
-}
-
-.section h4 {
-  font-weight: normal;
-  font-style: normal;
-  margin-bottom: 5px;
-  margin-top: -22px;
-}
-
-.section .date {
-  position: absolute;
-  top: 6px;
-  right: 0;
-}
-
-.section .item {
-  width: 700px;
-  padding-left: 50px;
-  float: right;
-  padding-top: 0;
-  margin-bottom: 9px;
-  position: relative;
-  margin-bottom:20px;
-}
-
-.section div.item {
-  border-left-style:ridge;
-}
-
-.section .item ul {
-  list-style-type: none;
-}
-
-.section .item li {
-    padding-bottom:10px;
-}
-
-.section .description {
-  text-align: justify;
-  width: 510px;
-}
-/* end content  section */
-
-
-/* footer of page */
-#footer {
-  padding-top:15px;
-  text-align:center;
-}
-/* end footer */
-    </style>
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20531725-3']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+  <style type="text/css">
+    {{ Inline CSS to upload to jobmine properly }}
+    {% include resume_style.css %}
+  </style>
+  {% include analytics.html %}
 </head>
 
 <body>
@@ -246,9 +84,9 @@ div.section{
       </div>
       <div id="contact-div">
         <ul id="contact">
-          <li><span>Phone</span> <strong>206 651 4004</strong></li>
-          <li><span>Website</span> <strong><a href="http://owencoutts.com">owencoutts.com</a></strong></li>
-          <li><span>Email</span> <strong>owen@owencoutts.com</strong></li>
+          <li><span>Phone</span><strong>206 651 4004</strong></li>
+          <li><span>Website</span><strong><a href="http://owencoutts.com">owencoutts.com</a></strong></li>
+          <li><span>Email</span><strong>owen@owencoutts.com</strong></li>
         </ul>
       </div>
     </div>
@@ -256,106 +94,36 @@ div.section{
       <div class="section">
         <h2>Skills</h2>
         <div class="item">
-        <div class="description">
-          <ul>
-            <li><em>Python</em>, <em>javascript</em>, HTML, CSS, jQuery, <em>node.js</em>, <em>Django</em>, Gunicorn/nginx, MySQL, MongoDB, ElasticSearch, <em>git</em>, Selenium Testing</li>
-            <li>Strong <em>Leadership</em> abilities gained through experience in project management, and experience leading development on cross-functional product teams.</li>
-            <li>Exceptional <em>Teamwork</em> through working on distributed teams with tough process requirements. See my <a href="http://owencoutts.com/blog/2012/04/26/Code-Quality-and-Why-You-Care.html">blog post</a> on code quality and its impact on teams.</li>
-          </ul>
+          <div class="description">
+            <ul>
+              {% for skill in page.skills %}
+                <li>{{ skill|markdownify }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
       <div class="section">
         <h2>Experience</h2>
-        <div class="item">
-          <h3><a href="http://mozilla.com">Mozilla</a></h3>
-          <h4>Web Developer</h4>
-          <div class="date">January-April 2012</div>
-          <div class="description">
-            <p>I worked on <a href="http://www.mozillians.org/">Mozillians</a>, a community platform for contributors. Mozillians is a site with
-            technologies including django, backbone.js and ElasticSearch. I was responsible for tasks such as implementing a design refresh, implementing an API and working on feature requests from product owners. Check out what I worked on at my <a href="https://github.com/mozilla/mozillians/commits/master?author=tallowen">github</a>.</p>
+        {% for experience in page.experiences %}
+          <div class="item">
+            <h3><a href="{{ experience.website }}">{{ experience.employer }}</a></h3>
+            <h4>{{ experience.title }}</h4>
+            <div class="date">{{ experience.date }}</div>
+            <div class="description">
+              {{ experience.description|markdownify }}
+            </div>
           </div>
-        </div>
-        <div class="item">
-          <h3><a href="http://mozilla.com">Mozilla</a></h3>
-          <h4>Quality Engineer</h4>
-          <div class="date">May-August 2011</div>
-          <div class="description">
-            <p>I created a system to generate various types of large scale load for the <a href = "https://services.mozilla.com/">Mozilla Sync Servers </a>. I wrote code that tore apart various systems and found scaling vulnerabilities. I used distributed <a href="http://funkload.nuxeo.org/">funkload</a> applications to generate load and <a href="http://www.mongodb.org/">MongoDB</a> to provide a data validation backend.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <h3><a href="http://twitsprout.com">Twitsprout</a></h3>
-          <h4>Software Engineer (Contractor)</h4>
-          <div class="date">March-April 2011</div>
-          <div class="description">
-              <p>Twitsprout is a social networking startup. I engineered their minimum viable product. I designed a user interface that allowed users to browse their twitter and Facebook data in more useful ways.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <h3><a href="http://tophatmonocle.com">Top Hat Monocle</a></h3>
-          <h4>Evil Genius</h4>
-          <div class="date">September-December 2010</div>
-          <div class="description">
-            <p>Top Hat is a 10-person startup that makes educational
-            software. I implemented automated frontend testing in <a href ="http://seleniumhq.org/">selenium</a>
-            to help with release testing. I also implemented various backend features written in Django.
-            Because of the nature of the startup, I was able to gain exposure agile development and especially fast
-            release cycles.</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <h3><a href="http://rim.com">Research in Motion</a></h3>
-          <h4>Systems Integration Specialist</h4>
-          <div class="date">January-May 2010</div>
-          <div class="description">
-            <p>I designed, developed and executed testing procedures for a new database system that allowed RIM to streamline BlackBerry production. I participated in multiple global database go-lives that critically impacted the production process. I led a team of individuals to complete testing and validate the new database system during go-live. I relied on communication skills as well as leadership skills to get the job done.</p>
-        </div>
+        {% endfor %}
       </div>
       <div class="section">
         <h2>Code Samples</h2>
-        <div class="item">
-          <h3>Mozillians</h3>
-          <h4>
-            <a href="https://github.com/mozilla/mozillians/commits?author=tallowen">
-              https://github.com/mozilla/mozillians/commits?author=tallowen
-            </a>
-          </h4>
-        </div>
-        <div class="item">
-          <h3>Social Share Plugin</h3>
-          <h4>
-            <a href="https://github.com/mozilla/SocialShare/commits?author=tallowen">
-              https://github.com/mozilla/SocialShare/commits?author=tallowen
-            </a>
-          </h4>
-        </div>
-        <div class="item">
-          <h3>Git Legit</h3>
-          <h4>
-            <a href="https://github.com/kennethreitz/legit/commits?author=tallowen">
-              https://github.com/kennethreitz/legit/commits?author=tallowen
-            </a>
-          </h4>
-        </div>
-        <div class="item">
-          <h3>Django BrowserID</h3>
-          <h4>
-            <a href="https://github.com/mozilla/django-browserid/commits?author=tallowen">
-              https://github.com/mozilla/django-browserid/commits?author=tallowen
-            </a>
-          </h4>
-        </div>
-        <div class="item">
-          <h3>Django Sha2</h3>
-          <h4>
-            <a href="https://github.com/fwenzel/django-sha2/commits?author=tallowen">
-              https://github.com/fwenzel/django-sha2/commits?author=tallowen
-            </a>
-          </h4>
-        </div>
+        {% for sample in page.sample_code %}
+          <div class="item">
+            <h3>{{ sample.title }}</h3>
+            <h4><a href="{{ sample.url }}">{{ sample.url }}</a></h4>
+          </div>
+        {% endfor %}
       </div>
       <div class="section">
         <h2>Education</h2>
@@ -365,17 +133,6 @@ div.section{
           <div class="date">2009 - 2014 (expected)</div>
           <div class="description">
             <p>Honours Systems Design Engineering, Merit Scholar, NSERC Research Grant</p>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <h2>Other Notable Qualities</h2>
-        <div class="item">
-          <div class="description">
-            <ul>
-              <li>Canadian, American and German Citizen</li>
-              <li>Fluent in English and German</li>
-            </ul>
           </div>
         </div>
       </div>
