@@ -56,7 +56,6 @@ a:link:hover, a:visited:hover {
   width:950px;
   margin: 0 auto;
   margin-top:20px;
-  border-color:red;
 }
 
 #name{
@@ -108,9 +107,6 @@ a:link:hover, a:visited:hover {
 /* end contact info */
 
 /* Resume Contents*/
-#content {
-}
-
 .section {
   width: 950px;
   margin: 0 auto;
@@ -160,10 +156,6 @@ div.section{
   padding-top: 0;
   position: relative;
   margin-bottom: 20px;
-}
-
-.section div.item {
-  border-left-style:ridge;
 }
 
 .section .item ul {
