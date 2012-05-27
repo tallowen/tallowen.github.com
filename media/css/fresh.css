@@ -17,8 +17,8 @@ ul {
 }
 
 #content li {
-  list-style-type:dash;
-  padding-bottom:10px;
+  list-style-type: dash;
+  padding-bottom: 10px;
 }
 
 #content img {
@@ -53,14 +53,14 @@ pre {
 #footer h3 {
   font: normal 10pt/16pt helvetica;
   letter-spacing: 1px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   text-align: center;
   color: #151713;
 }
 
 h4 {
   font: normal 14pt helvetica;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: justify;
   color: #801013;
 }
@@ -195,5 +195,57 @@ ul.posts, ul.posts li {
 
 .postdate-title {
   float:right;
+}
+
+@media screen and (max-width:880px) {
+  #leftside {
+    float: none;
+    width: auto;
+    overflow: auto;
+  }
+  #slogme {
+    float: left;
+  }
+  #linkList {
+    float: left;
+  }
+  #rightside {
+    float: none;
+    width: auto;
+  }
+  #page {
+    padding: 85px 0 0 0;
+    width: 90%;
+    max-width: 700px;
+  }
+  #footer {
+    width: inherit;
+  }
+  #linkList {
+    padding: 0;
+    width: 100%;
+  }
+
+  #header-pic {
+    display: none;
+  }
+
+  #subtext {
+    margin: 0;
+  }
+
+  #linkList h2 {
+    width: 25%;
+    float: left;
+    text-align: center;
+  }
+
+  #linkList h2:first-child {
+    text-align: left;
+  }
+
+  #linkList h2:last-child {
+    text-align: right;
+  }
 }
 
