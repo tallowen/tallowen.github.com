@@ -13,9 +13,9 @@ Our first adventure took us to Alcatraz in the San Francisco bay. A beautiful da
 ![SF Skyline](/blog/media/2012-05-27-roadtrip/sfskyline.jpg)
 
 The road through California, on the way to Yosemite:
-![Druid Arch](/blog/media/2012-05-27-roadtrip/caliroad.jpg)
+![California Road](/blog/media/2012-05-27-roadtrip/caliroad.jpg)
 
-On the first day of driving we made it to the Yosemite valley. This is the the land John Muir, the founder of the Sierra Club originally faught so hard to preserve. These photos show Bridavale Falls, Half Dome and other parts of Yosemtie Valley:
+On the first day of driving we made it to the Yosemite valley. This is the the land John Muir, the founder of the Sierra Club originally fought so hard to preserve. These photos show Bridalvale Falls, Half Dome and other parts of Yosemtie Valley:
 ![tunnel overlook](/blog/media/2012-05-27-roadtrip/falls.jpg)
 ![valley floor](/blog/media/2012-05-27-roadtrip/yosemitevalley.jpg)
 ![Half Dome](/blog/media/2012-05-27-roadtrip/halfdome.jpg)
@@ -23,7 +23,7 @@ On the first day of driving we made it to the Yosemite valley. This is the the l
 Giant freaking sequoia tree. OMFG a car fits through it.
 ![Sequoia Tree](/blog/media/2012-05-27-roadtrip/sequoia.jpg)
 
-The white stuff on either side of the road is salt. It just chills there. Salt Flats make really long really strait roads. We definatley weren't speeding, I promise:
+The white stuff on either side of the road is salt. It just chills there. Salt Flats make really long really strait roads. We definitely weren't speeding, I promise:
 ![Salt Flats](/blog/media/2012-05-27-roadtrip/saltflats.jpg)
 
 After driving throught the desert of Nevada and the ensuing salt flats of eastern Nevada and Utah, we made it to Moab. We spend a day climbing around and looking at some pretty fly rocks.
@@ -43,7 +43,7 @@ The Green River. Its the largest tributary of the Colorado River, which carved o
 150 miles from Denver! Time to drive through some Rockies.
 ![Mountain Pass](/blog/media/2012-05-27-roadtrip/rockies.jpg)
 
-As we drove through the planes we hit some ligning storms. The big open skies make lightning that much scarier:
+As we drove through the plains we hit some ligning storms. The big open skies make lightning that much scarier:
 ![Lightning](/blog/media/2012-05-27-roadtrip/lightning.jpg)
 And then out of nowhere comes civilization in the middle of the plains. Welcome to the Chicago skyline!
 ![Druid Arch](/blog/media/2012-05-27-roadtrip/chicagoskyline.jpg)
