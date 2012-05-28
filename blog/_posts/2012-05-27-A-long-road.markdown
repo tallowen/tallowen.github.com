@@ -23,7 +23,7 @@ On the first day of driving we made it to the Yosemite valley. This is the the l
 Giant freaking sequoia tree. OMFG a car fits through it.
 ![Sequoia Tree](/blog/media/2012-05-27-roadtrip/sequoia.jpg)
 
-The white stuff on either side of the road is salt. It just chills there. Salt Flats make really long really strait roads. We definitely weren't speeding, I promise:
+The white stuff on either side of the road is salt. It just chills there. Salt Flats make really long really straight roads. We definitely weren't speeding, I promise:
 ![Salt Flats](/blog/media/2012-05-27-roadtrip/saltflats.jpg)
 
 After driving throught the desert of Nevada and the ensuing salt flats of eastern Nevada and Utah, we made it to Moab. We spend a day climbing around and looking at some pretty fly rocks.
