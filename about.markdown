@@ -9,5 +9,5 @@ Here is a more recent picture my father took of my mum, and my sister and me in 
 
 ![Owen and fam in the cascades](/media/img/mountainfam.jpg "Mountain Fam")
 
-Though I grew up in Seattle, these days you'll probably find me in Waterloo, near Toronto Ontario or in the Bay Area. I am studying at the [University of Waterloo](http://uwaterloo.ca) for Systems Design Engineering until 2014.
+Though I grew up in Seattle, these days you'll probably find me in Waterloo, near Toronto Ontario. I am studying at the [University of Waterloo](http://uwaterloo.ca) for Systems Design Engineering until 2014.
 
