@@ -1,7 +1,7 @@
 ---
 skills:
   -
-    _Python_, _javascript_, HTML, CSS, jQuery, _node.js_, _Django_, Gunicorn/nginx, MySQL, MongoDB, ElasticSearch, _git_, Python Nose, Selenium Testing
+    _Python_, _javascript_, HTML, CSS, jQuery, _node.js_, Django, _Flask_, backbone.js, puppet, Gunicorn/uwsgi/nginx, ElasticSearch, _git_, Python Nose, Selenium Testing
   -
     Strong _Leadership_ abilities gained through experience in project management, and leading development on cross-functional product teams.
   -
@@ -9,6 +9,13 @@ skills:
 
 
 experiences:
+  -
+    employer: Pinterest
+    website: http://pinterest.com
+    title: Web Developer (Pintern)
+    date: September-December 2012
+    description:
+      I developed systems to ship code as fast as possible. I created tools that cleanly deployed code without 500s or downtime. I build a continuous integration process that on every code change ran tests, deployed static assets to a CDN server and built localization files. I created an internal version of Pinterest.com that got updated on every stable build. I created methodologies and best practices for new feature integration. I oversaw the the technical aspect of  Secret Boards and buisness.pinterest.com launches. I helped move Pinterest to frequent, safer deploys.
   -
     employer: Mozilla
     website: http://mozilla.com
@@ -61,6 +68,13 @@ sample_code:
   -
     title: Django Sha2
     url: https://github.com/fwenzel/django-sha2/commits?author=tallowen
+
+awards:
+  -
+    NSERC Research Grant
+  -
+    Waterloo Engineering Competition Winner
+
 
 ---
 <!DOCTYPE html>
@@ -133,6 +147,18 @@ sample_code:
           <div class="date">2009 - 2014 (expected)</div>
           <div class="description">
             <p>Honours Systems Design Engineering, Merit Scholar, NSERC Research Grant</p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Awards</h2>
+        <div class="item">
+          <div class="description">
+            <ul>
+              {% for award in page.awards %}
+                <li>{{ award|markdownify }}</li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
       </div>
