@@ -1,4 +1,3 @@
-
 import { Mail, Instagram, Github } from "lucide-react";
 
 const SocialLinks = () => {
@@ -12,7 +11,7 @@ const SocialLinks = () => {
         <Mail className="h-5 w-5 opacity-75 hover:opacity-100" />
       </a>
       <a
-        href="https://github.com/github"
+        href="https://github.com/tallowen/"
         className="transition-transform hover:scale-110"
         target="_blank"
         rel="noopener noreferrer"
